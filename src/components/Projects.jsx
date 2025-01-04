@@ -13,7 +13,7 @@ export const Projects = () => {
     {
       title: "Recipe Generator",
       description:
-        "Generate a random meal to prepare for the day. Built using HTML, CSS and JavaScript.",
+        "Generate random meal ideas to help with daily meal planning. Built using HTML, CSS, and JavaScript.",
       imgUrl: thumbnail1,
       githubUrl: "https://github.com/KuvashneeNaidoo/recipe-generator",
       liveSiteUrl: "https://meal-generator-frontend.netlify.app/",
@@ -21,7 +21,7 @@ export const Projects = () => {
     {
       title: "Restaurant Splitter",
       description:
-        "Split the bill in a restaurant amongst a group of people. Built using React.",
+        "Split restaurant bills among group members. Built using React.",
       imgUrl: thumbnail2,
       githubUrl: "https://github.com/KuvashneeNaidoo/restaurant-splitter",
       liveSiteUrl: "https://restaurant-splitter.netlify.app/",
@@ -29,15 +29,15 @@ export const Projects = () => {
     {
       title: "Online Patisserie Store",
       description:
-        "An online bakery store. Users have the ability to view different items, navigate between pages, add items to their cart and remove them. Built using HTML, CSS and JavaScript. ",
+        "Browse products, add items to the cart, and manage orders. Built with HTML, CSS, and JavaScript.",
       imgUrl: thumbnail3,
       githubUrl: "https://github.com/KuvashneeNaidoo/online-patisserie-store",
       liveSiteUrl: "https://online-patisserie-store.netlify.app/",
     },
     {
-      title: "iTunes",
+      title: "iTunes Media Finder",
       description:
-        "Media searching app using iTunes API. Built using React and Express",
+        "A media search app using the iTunes API. It allows users to search for music, movies, and other content. Built with React and Express. ",
       imgUrl: thumbnail4,
       githubUrl: "https://github.com/KuvashneeNaidoo/iTunes_App/tree/main",
       liveSiteUrl: "https://itunes-app-frontend.onrender.com/",
@@ -45,7 +45,7 @@ export const Projects = () => {
     {
       title: "Gratitude Journal",
       description:
-        "A digital gratitude journal where users can write, track, and reflect on the positive aspects of their day. Built with React and local storage to persist data.",
+        "A digital journal to record and reflect on positive moments. Built with React.",
       imgUrl: thumbnail5,
       githubUrl: "https://github.com/KuvashneeNaidoo/gratitude-journal",
       liveSiteUrl: "https://gratitude-journal-frontend.onrender.com/",
@@ -53,7 +53,7 @@ export const Projects = () => {
     {
       title: "Memory Game",
       description:
-        "A fun and interactive memory game where users have to match pairs of cards. Built using React, this game challenges memory and pattern recognition skills.",
+        "A card-matching memory game to improve memory skills. Built with React.",
       imgUrl: thumbnail6,
       githubUrl: "https://github.com/KuvashneeNaidoo/marvel-memory-game",
       liveSiteUrl: "https://marvel-memory-game.netlify.app/",
