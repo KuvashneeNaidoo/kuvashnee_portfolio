@@ -1,0 +1,98 @@
+.about {
+  padding: 80px 0;
+  background: #090909;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 45px;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.about p {
+  color: #b8b8b8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 30px auto;
+  width: 60%;
+}
+
+.about a {
+  color: #4a90e2;
+  font-weight: bold;
+  text-decoration: none; /* No underline by default */
+}
+
+.about a:hover {
+  text-decoration: none; /* Ensure no underline on hover */
+}
+
+.button-group {
+  margin-top: 30px;
+  padding-bottom: 30px; /* Added padding to the bottom of the button group */
+}
+
+.button-group .btn-custom {
+  font-weight: 700;
+  color: #000;
+  background-color: #fff;
+  padding: 14px 48px;
+  font-size: 18px;
+  margin-top: 25px;
+  margin-right: 15px; /* Adds space between buttons */
+  border-radius: 0;
+  position: relative;
+  transition: 0.3s ease-in-out;
+  border: none; /* Remove border */
+}
+
+.button-group .btn-custom:last-child {
+  margin-right: 0; /* Remove margin on the last button */
+}
+
+.button-group .btn-custom span {
+  z-index: 1;
+  position: relative;
+}
+
+.button-group .btn-custom:hover {
+  color: #fff;
+}
+
+.button-group .btn-custom::before {
+  content: "";
+  background: #121212;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: 0.3s ease-in-out;
+}
+
+.button-group .btn-custom:hover::before {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .about p {
+    width: 80%;
+  }
+
+  .about h2 {
+    font-size: 2.5rem;
+  }
+
+  .about p {
+    font-size: 1rem;
+  }
+
+  .button-group .btn-custom {
+    margin: 10px 0; /* Stack buttons vertically on smaller screens */
+    width: 100%;
+  }
+}
