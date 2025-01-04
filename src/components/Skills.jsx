@@ -8,7 +8,7 @@ import React from "../assets/img/react.svg";
 import Redux from "../assets/img/redux.svg";
 import Node from "../assets/img/node.svg";
 import Express from "../assets/img/express1.svg";
-import NextJS from "../assets/img/nextJS.svg";
+import NextJS from "../assets/img/nextjs.svg";
 import MongoDB from "../assets/img/mongodb.svg";
 import SQL from "../assets/img/sql.svg";
 import python from "../assets/img/python.svg";
