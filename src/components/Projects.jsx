@@ -29,7 +29,7 @@ export const Projects = () => {
     {
       title: "Online Patisserie Store",
       description:
-        "Browse products, add items to the cart, and manage orders. Built with HTML, CSS, and JavaScript.",
+        "Browse products, add items to the cart, and manage orders. Built with React.",
       imgUrl: thumbnail3,
       githubUrl: "https://github.com/KuvashneeNaidoo/online-patisserie-store",
       liveSiteUrl: "https://online-patisserie-store.netlify.app/",
