@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import certificate from "../assets/img/certificate.pdf"; // Import the certificate file
-import CV from "../assets/img/CV.pdf"; // Import the certificate file
+import CV from "../assets/img/CV - Kuvashnee Naidoo - HTML Frontend Developer.pdf"; // Import the certificate file
 import "./About.css";
 
 export const About = () => {
